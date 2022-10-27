@@ -131,6 +131,28 @@ header {
   text-align: center;
 }
 
+#imagecontainer {
+  width: 90%;
+  margin: 0 auto;
+  place-content: center;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.port-image-tall {
+  display: inline-block;
+  margin-top: 50px;
+  max-height: 1000px;
+  max-width: 33%;
+}
+
+.port-image-wide {
+  display: inline-block;
+  margin-top: 50px;
+  max-width: 100%;
+}
+
 @media screen and (max-width: 900px) {
   .background {
     background-color: black;
